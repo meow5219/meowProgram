@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'meowProgram' target in the 'meowProgram' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

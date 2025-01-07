@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD68A122D2DC91B001DCDA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD68A112D2DC91B001DCDA6 /* Cocoa.framework */; };
+		BFD68A1C2D2DC91B001DCDA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD68A1A2D2DC91B001DCDA6 /* InfoPlist.strings */; };
+		BFD68A1E2D2DC91B001DCDA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD68A1D2D2DC91B001DCDA6 /* main.m */; };
+		BFD68A222D2DC91B001DCDA6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BFD68A202D2DC91B001DCDA6 /* Credits.rtf */; };
+		BFD68A252D2DC91B001DCDA6 /* xyzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD68A242D2DC91B001DCDA6 /* xyzAppDelegate.m */; };
+		BFD68A282D2DC91C001DCDA6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD68A262D2DC91C001DCDA6 /* MainMenu.xib */; };
+		BFD68A302D2DC91C001DCDA6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD68A2F2D2DC91C001DCDA6 /* SenTestingKit.framework */; };
+		BFD68A312D2DC91C001DCDA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD68A112D2DC91B001DCDA6 /* Cocoa.framework */; };
+		BFD68A392D2DC91C001DCDA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD68A372D2DC91C001DCDA6 /* InfoPlist.strings */; };
+		BFD68A3C2D2DC91D001DCDA6 /* meowProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD68A3B2D2DC91C001DCDA6 /* meowProgramTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD68A322D2DC91C001DCDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD68A042D2DC91B001DCDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD68A0C2D2DC91B001DCDA6;
+			remoteInfo = meowProgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD68A0D2D2DC91B001DCDA6 /* meowProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meowProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD68A112D2DC91B001DCDA6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BFD68A142D2DC91B001DCDA6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BFD68A152D2DC91B001DCDA6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BFD68A162D2DC91B001DCDA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFD68A192D2DC91B001DCDA6 /* meowProgram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "meowProgram-Info.plist"; sourceTree = "<group>"; };
+		BFD68A1B2D2DC91B001DCDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFD68A1D2D2DC91B001DCDA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD68A1F2D2DC91B001DCDA6 /* meowProgram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meowProgram-Prefix.pch"; sourceTree = "<group>"; };
+		BFD68A212D2DC91B001DCDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BFD68A232D2DC91B001DCDA6 /* xyzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xyzAppDelegate.h; sourceTree = "<group>"; };
+		BFD68A242D2DC91B001DCDA6 /* xyzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xyzAppDelegate.m; sourceTree = "<group>"; };
+		BFD68A272D2DC91C001DCDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BFD68A2E2D2DC91C001DCDA6 /* meowProgramTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meowProgramTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD68A2F2D2DC91C001DCDA6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFD68A362D2DC91C001DCDA6 /* meowProgramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "meowProgramTests-Info.plist"; sourceTree = "<group>"; };
+		BFD68A382D2DC91C001DCDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFD68A3A2D2DC91C001DCDA6 /* meowProgramTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meowProgramTests.h; sourceTree = "<group>"; };
+		BFD68A3B2D2DC91C001DCDA6 /* meowProgramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meowProgramTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD68A0A2D2DC91B001DCDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD68A122D2DC91B001DCDA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD68A2A2D2DC91C001DCDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD68A302D2DC91C001DCDA6 /* SenTestingKit.framework in Frameworks */,
+				BFD68A312D2DC91C001DCDA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD68A022D2DC91B001DCDA6 = {
+			isa = PBXGroup;
+			children = (
+				BFD68A172D2DC91B001DCDA6 /* meowProgram */,
+				BFD68A342D2DC91C001DCDA6 /* meowProgramTests */,
+				BFD68A102D2DC91B001DCDA6 /* Frameworks */,
+				BFD68A0E2D2DC91B001DCDA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD68A0E2D2DC91B001DCDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A0D2D2DC91B001DCDA6 /* meowProgram.app */,
+				BFD68A2E2D2DC91C001DCDA6 /* meowProgramTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD68A102D2DC91B001DCDA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A112D2DC91B001DCDA6 /* Cocoa.framework */,
+				BFD68A2F2D2DC91C001DCDA6 /* SenTestingKit.framework */,
+				BFD68A132D2DC91B001DCDA6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD68A132D2DC91B001DCDA6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A142D2DC91B001DCDA6 /* AppKit.framework */,
+				BFD68A152D2DC91B001DCDA6 /* CoreData.framework */,
+				BFD68A162D2DC91B001DCDA6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BFD68A172D2DC91B001DCDA6 /* meowProgram */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A232D2DC91B001DCDA6 /* xyzAppDelegate.h */,
+				BFD68A242D2DC91B001DCDA6 /* xyzAppDelegate.m */,
+				BFD68A262D2DC91C001DCDA6 /* MainMenu.xib */,
+				BFD68A182D2DC91B001DCDA6 /* Supporting Files */,
+			);
+			path = meowProgram;
+			sourceTree = "<group>";
+		};
+		BFD68A182D2DC91B001DCDA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A192D2DC91B001DCDA6 /* meowProgram-Info.plist */,
+				BFD68A1A2D2DC91B001DCDA6 /* InfoPlist.strings */,
+				BFD68A1D2D2DC91B001DCDA6 /* main.m */,
+				BFD68A1F2D2DC91B001DCDA6 /* meowProgram-Prefix.pch */,
+				BFD68A202D2DC91B001DCDA6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFD68A342D2DC91C001DCDA6 /* meowProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A3A2D2DC91C001DCDA6 /* meowProgramTests.h */,
+				BFD68A3B2D2DC91C001DCDA6 /* meowProgramTests.m */,
+				BFD68A352D2DC91C001DCDA6 /* Supporting Files */,
+			);
+			path = meowProgramTests;
+			sourceTree = "<group>";
+		};
+		BFD68A352D2DC91C001DCDA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68A362D2DC91C001DCDA6 /* meowProgramTests-Info.plist */,
+				BFD68A372D2DC91C001DCDA6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD68A0C2D2DC91B001DCDA6 /* meowProgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD68A3F2D2DC91D001DCDA6 /* Build configuration list for PBXNativeTarget "meowProgram" */;
+			buildPhases = (
+				BFD68A092D2DC91B001DCDA6 /* Sources */,
+				BFD68A0A2D2DC91B001DCDA6 /* Frameworks */,
+				BFD68A0B2D2DC91B001DCDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meowProgram;
+			productName = meowProgram;
+			productReference = BFD68A0D2D2DC91B001DCDA6 /* meowProgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD68A2D2D2DC91C001DCDA6 /* meowProgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD68A422D2DC91D001DCDA6 /* Build configuration list for PBXNativeTarget "meowProgramTests" */;
+			buildPhases = (
+				BFD68A292D2DC91C001DCDA6 /* Sources */,
+				BFD68A2A2D2DC91C001DCDA6 /* Frameworks */,
+				BFD68A2B2D2DC91C001DCDA6 /* Resources */,
+				BFD68A2C2D2DC91C001DCDA6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD68A332D2DC91C001DCDA6 /* PBXTargetDependency */,
+			);
+			name = meowProgramTests;
+			productName = meowProgramTests;
+			productReference = BFD68A2E2D2DC91C001DCDA6 /* meowProgramTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD68A042D2DC91B001DCDA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BFD68A072D2DC91B001DCDA6 /* Build configuration list for PBXProject "meowProgram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFD68A022D2DC91B001DCDA6;
+			productRefGroup = BFD68A0E2D2DC91B001DCDA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD68A0C2D2DC91B001DCDA6 /* meowProgram */,
+				BFD68A2D2D2DC91C001DCDA6 /* meowProgramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD68A0B2D2DC91B001DCDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD68A1C2D2DC91B001DCDA6 /* InfoPlist.strings in Resources */,
+				BFD68A222D2DC91B001DCDA6 /* Credits.rtf in Resources */,
+				BFD68A282D2DC91C001DCDA6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD68A2B2D2DC91C001DCDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD68A392D2DC91C001DCDA6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFD68A2C2D2DC91C001DCDA6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD68A092D2DC91B001DCDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD68A1E2D2DC91B001DCDA6 /* main.m in Sources */,
+				BFD68A252D2DC91B001DCDA6 /* xyzAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD68A292D2DC91C001DCDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD68A3C2D2DC91D001DCDA6 /* meowProgramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD68A332D2DC91C001DCDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD68A0C2D2DC91B001DCDA6 /* meowProgram */;
+			targetProxy = BFD68A322D2DC91C001DCDA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD68A1A2D2DC91B001DCDA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD68A1B2D2DC91B001DCDA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFD68A202D2DC91B001DCDA6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD68A212D2DC91B001DCDA6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BFD68A262D2DC91C001DCDA6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD68A272D2DC91C001DCDA6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BFD68A372D2DC91C001DCDA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD68A382D2DC91C001DCDA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD68A3D2D2DC91D001DCDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFD68A3E2D2DC91D001DCDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFD68A402D2DC91D001DCDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "meowProgram/meowProgram-Prefix.pch";
+				INFOPLIST_FILE = "meowProgram/meowProgram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFD68A412D2DC91D001DCDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "meowProgram/meowProgram-Prefix.pch";
+				INFOPLIST_FILE = "meowProgram/meowProgram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFD68A432D2DC91D001DCDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/meowProgram.app/Contents/MacOS/meowProgram";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "meowProgram/meowProgram-Prefix.pch";
+				INFOPLIST_FILE = "meowProgramTests/meowProgramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BFD68A442D2DC91D001DCDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/meowProgram.app/Contents/MacOS/meowProgram";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "meowProgram/meowProgram-Prefix.pch";
+				INFOPLIST_FILE = "meowProgramTests/meowProgramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD68A072D2DC91B001DCDA6 /* Build configuration list for PBXProject "meowProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD68A3D2D2DC91D001DCDA6 /* Debug */,
+				BFD68A3E2D2DC91D001DCDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD68A3F2D2DC91D001DCDA6 /* Build configuration list for PBXNativeTarget "meowProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD68A402D2DC91D001DCDA6 /* Debug */,
+				BFD68A412D2DC91D001DCDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFD68A422D2DC91D001DCDA6 /* Build configuration list for PBXNativeTarget "meowProgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD68A432D2DC91D001DCDA6 /* Debug */,
+				BFD68A442D2DC91D001DCDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD68A042D2DC91B001DCDA6 /* Project object */;
+}
